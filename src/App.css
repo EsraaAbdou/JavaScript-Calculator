@@ -1,0 +1,31 @@
+.app-container{
+    height: 100vh;
+}
+.calc-styles{
+    background-color: #333;
+    width: 20%; 
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(6,1fr);
+    grid-template-areas: 'screen screen screen screen' 'clear clear divide multiply' 'seven eight nine subtract' 'four five six add' 'one two three equals' 'zero zero decimal equals';
+}
+/* display */
+.screen{
+    grid-area: screen;
+}
+.temp-display{
+    color: orange;
+}
+#display{
+    color: #eee;
+}
+/* buttons */
+button{
+    color: #eee;
+    border: 1px solid #333;
+}
+button:hover{
+    color: #333;
+    border: 1px solid #eee;
+    cursor: pointer;
+}
