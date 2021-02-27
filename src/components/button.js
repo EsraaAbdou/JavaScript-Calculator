@@ -5,7 +5,7 @@ function Button(props) {
     };
 
     return (
-    <button style={style} id={props.area} className="py-3" onClick={()=> {this.props.clickHandler(props.content)}}>
+    <button style={style} id={props.area} className="py-3" onClick={()=> {props.clickHandler(props.content)}}>
         {props.content}
     </button>
     );

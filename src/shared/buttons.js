@@ -85,3 +85,5 @@ export const BUTTONS = [
         color: "#4d4d4d"
     }
 ];
+
+export const OPERATORS = ['-', '+', 'x', '/'];
