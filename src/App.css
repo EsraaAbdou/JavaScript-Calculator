@@ -3,7 +3,7 @@
 }
 .calc-styles{
     background-color: #333;
-    width: 20%; 
+    width: 70%; 
     display: grid;
     grid-template-columns: repeat(4,1fr);
     grid-template-rows: repeat(6,1fr);
@@ -29,4 +29,28 @@ button:hover{
     color: #333;
     border: 1px solid #eee;
     cursor: pointer;
+}
+
+@media (min-width: 576px) {
+    .calc-styles{
+        width: 50%;
+    }
+}
+
+@media (min-width: 768px) {
+    .calc-styles{
+        width: 30%;
+    }
+}
+
+@media (min-width: 992px) {
+    .calc-styles{
+        width: 25%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .calc-styles{
+        width: 25%;
+    }
 }
